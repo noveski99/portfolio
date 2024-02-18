@@ -1,0 +1,52 @@
+.header {
+    margin: 1rem 0 0 0;
+    
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #202020;
+    position: relative;
+}
+
+
+.header ul {
+    margin: 0 1rem;
+    padding: 0;
+    display: flex;
+}
+
+.header li {
+    list-style: none;
+    margin: 0 1rem;
+    transition: all 200ms ease-in-out;
+}
+
+.header ul li:hover {
+    color: #49fb35;
+    scale: 1.1;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.toggle-button{
+    cursor: pointer;
+}
+.toggle-button-on{
+    color:#49fb35;
+}
+ 
+
+
+
+@media only screen and (max-width: 1250px) {
+    .header{
+        justify-content: center;
+        padding:0 0 1rem 1rem;
+    }
+
+}
