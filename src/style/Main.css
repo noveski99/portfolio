@@ -23,11 +23,11 @@
     left: 0;
     opacity: 20%;
     animation: main-left-border-load 3s;
-    transition: background-color linear 200ms;
+    
 }
 
 .main::before {
-    transition: background-color linear 200ms;
+   
     content: '';
     background-color: white;
     width: 20%;
@@ -38,12 +38,7 @@
     opacity: 20%;
     animation: main-top-border-load 3s;
 }
-.main:hover::before {
-    background-color: #49fb35;
-   }
-   .main:hover::after{
-       background-color: #49fb35;
-   }
+ 
 @keyframes main-top-border-load {
     from {
         width: 0%;
