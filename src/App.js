@@ -39,7 +39,7 @@ function App() {
 
         <ul>
 
-          <li title='Profile'><a href="/#"><MdAccountCircle size={30} /></a></li>
+          <li title='Profile'><a href="/"><MdAccountCircle size={30} /></a></li>
           <li title='E-mail'><a href='mailto:noveski99@gmail.com?Subject=YourSubject'><IoIosMail size={30} /></a></li>
           <li title='Github'><a href='https://github.com/noveski99' target="_blank" rel="noreferrer"><FaGithub size={30} /></a></li>
         </ul>
