@@ -21,6 +21,7 @@
     list-style: none;
     margin: 0 1rem;
     transition: all 200ms ease-in-out;
+    cursor: pointer;
 }
 
 .header ul li:hover {

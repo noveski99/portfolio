@@ -39,7 +39,7 @@ function App() {
 
         <ul>
 
-          <li title='Profile'><a href="/"><MdAccountCircle size={30} /></a></li>
+          <li title='Profile'><MdAccountCircle size={30}/></li>
           <li title='E-mail'><a href='mailto:noveski99@gmail.com?Subject=YourSubject'><IoIosMail size={30} /></a></li>
           <li title='Github'><a href='https://github.com/noveski99' target="_blank" rel="noreferrer"><FaGithub size={30} /></a></li>
         </ul>
@@ -55,6 +55,7 @@ function App() {
 
 
           </div>
+ 
 
         </aside>
 
@@ -62,8 +63,8 @@ function App() {
           <h1>PROJECTS</h1>
 
           <section className='section-right-inner'>
-            <p><a href='https://todo-appproject1.netlify.app/' target="_blank" rel="noreferrer">TodoApp</a></p>
-            <p><a href='https://weather-appproject1.netlify.app/' target="_blank" rel="noreferrer">WeatherApp</a></p>
+            <p><a href='https://todo-appproject1.netlify.app/' target="_blank" rel="noreferrer">TodoPal</a></p>
+            <p><a href='https://weather-appproject1.netlify.app/' target="_blank" rel="noreferrer">Waily</a></p>
             <p>Project 3</p>
           </section>
 
