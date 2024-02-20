@@ -12,50 +12,7 @@
     border-radius: 0.5rem;
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
-
-.main::after {
-    content: '';
-    background-color: white;
-    width: 2px;
-    height: 75%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 20%;
-    animation: main-left-border-load 3s;
-}
-
-.main::before {
-    content: '';
-    background-color: white;
-    width: 20%;
-    position: absolute;
-    height: 2px;
-    top: 0;
-    left: 0;
-    opacity: 20%;
-    animation: main-top-border-load 3s;
-}
-
-@keyframes main-top-border-load {
-    from {
-        width: 0%;
-    }
-
-    to {
-        width: 20%;
-    }
-}
-
-@keyframes main-left-border-load {
-    from {
-        height: 0%;
-    }
-
-    to {
-        height: 75%;
-    }
-}
+ 
 
 #welcome-message {
     margin: 0;
@@ -89,6 +46,7 @@
     height: 100%;
     left: 0;
     animation: welcome-text-border-load 3s;
+    border-radius:1em;
 }
 
 @keyframes welcome-text-border-load {
@@ -152,6 +110,7 @@
     cursor: default;
     animation: top-right-border-load;
     animation-duration: 3s;
+    border-radius:1em;
 
 }
 
@@ -166,13 +125,14 @@
     cursor: default;
     animation-name: top-left-border-load;
     animation-duration: 3s;
+    border-radius:1em;
 }
 
 @keyframes top-left-border-load {
     from {
 
         height: 0%;
-        background-color: #49fb35;
+      
     }
 
     to {
@@ -186,7 +146,7 @@
     from {
 
         width: 0%;
-        background-color: #49fb35;
+        
     }
 
     to {
@@ -250,6 +210,7 @@
     cursor: default;
     opacity: 10%;
     animation: section-right-border-load 3s;
+    border-radius:1em;
 }
 
 @keyframes section-right-border-load {
@@ -267,7 +228,7 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     position: relative;
     font-family: Century Gothic;
     width: 100%;
@@ -304,6 +265,7 @@
     bottom: 0;
     animation: bot-bottom-border-load;
     animation-duration: 3s;
+    border-radius:1em;
 }
 
 .section-bottom::before {
@@ -316,13 +278,14 @@
     bottom: 0;
     animation: bot-right-border-load;
     animation-duration: 3s;
+    border-radius:1em;
 }
 
 @keyframes bot-bottom-border-load {
     from {
 
         width: 0%;
-        background-color: #49fb35;
+        
     }
 
     to {
@@ -336,7 +299,7 @@
 @keyframes bot-right-border-load {
     from {
         height: 0%;
-        background-color: #49fb35;
+     
     }
 
     to {
