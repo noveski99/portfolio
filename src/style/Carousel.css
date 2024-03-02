@@ -1,0 +1,51 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    overflow: hidden;
+}
+
+.skills-container {
+    margin: 0 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+}
+
+.slide {
+    width: 100%;
+    height: auto;
+    margin: 0 1em;
+    user-select: none;
+    opacity: 0.8;
+}
+
+
+
+.left-arrow {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 50%;
+    color: #1a1b1f;
+    opacity: 0.6;
+}
+
+.right-arrow {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 50%;
+    color: #1a1b1f;
+    opacity: 0.6;
+}
+
+.hidden {
+    display: none;
+}

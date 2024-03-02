@@ -1,63 +1,85 @@
 import React from 'react'
 import '../style/ThirdSection.css'
-import waily from '../images/waily.png'
-import todopal from '../images/todopal.png'
-const ThirdSection = (props) => {
-  const { projectHeader } = props;
+import { GoPaperclip } from "react-icons/go";
+import { DiReact } from "react-icons/di";
+import { FaCss3Alt } from "react-icons/fa6";
+import { IoLogoJavascript } from "react-icons/io";
+
+const ThirdSection = () => {
   return (
-    <main className='main-third'>
+    <section id='Projects' className='main-third'>
       <div className='main-third-inner'>
         <div className='main-third-inner-top'>
-          <p ref={projectHeader}>Projects</p>
+          <p>Projects</p>
         </div>
         <div className='main-third-inner-bot'>
-          <div className='project'>
-            <div className='project-name'>
-              <p>Project1</p>
-            </div>
-            <div className='project-description'>
-              <p>In progress..</p>
-            </div>
-            <div className='project-thumbnail' >
-              <img alt='project-thumbnail'></img>
-            </div>
-          </div>
-          <div className='project'>
-            <div className='project-name'>
-              <p>TodoPal</p>
-            </div>
-            <div className='project-description'>
-              <p>A todo application to track your daily tasks, with added features like edit
-                remove or toggle between your active and completed tasks.</p>
-                <div className='project-buttons'>
-                <button><a href='https://todo-appproject1.netlify.app/' target="_blank" rel="noreferrer">Review</a></button>
-                <button><a href='https://github.com/noveski99/todoapp_project' target="_blank" rel="noreferrer">Learn more</a></button>
+          <section className='top-container'>
+            <div className='project'>
+              <div className='project-name'>
+                <a href='https://github.com/noveski99/todoapp_project' target="_blank" rel="noreferrer"><p>TodoPal </p>
+                  <div className='project-icons'>
+                    <DiReact />
+                    <FaCss3Alt />
+                    <IoLogoJavascript />
+                  </div> </a>
+              </div>
+              <div className='project-description'>
+                <p>A todo application to track your daily tasks, with added features like edit
+                  remove or toggle between your active and completed tasks.</p>
+              </div>
+              <div className='project-link'>
+                <a href='https://todo-appproject1.netlify.app/' target="_blank" rel="noreferrer"><GoPaperclip style={{ margin: '0 0.2rem' }} />View Project</a>
               </div>
             </div>
-            <div className='project-thumbnail'>
-              <img src={todopal} alt='todopal-thumbnail'></img>
-            </div>
-          </div>
-          <div className='project'>
-            <div className='project-name'>
-              <p>Waily</p>   
-            </div>
-            <div className='project-description'>
-              <p>A simple weather application, made using ReactJs.Included automatic location detection and
-                possibility to search current weather by city name.</p>
-              <div className='project-buttons'>
-                <button><a href='https://weather-appproject1.netlify.app/' target="_blank" rel="noreferrer">Review</a></button>
-                <button><a href='https://github.com/noveski99/weatherapp_project' target="_blank" rel="noreferrer">Learn more</a></button>
+            <div className='project'>
+              <div className='project-name'>
+                <a href='https://github.com/noveski99/weatherapp_project' target="_blank" rel="noreferrer"><p>Waily</p>
+                  <div className='project-icons'>
+                    <DiReact />
+                    <FaCss3Alt />
+                    <IoLogoJavascript />
+                  </div> </a>
+              </div>
+              <div className='project-description'>
+                <p>A simple weather application, made using ReactJs. Included automatic location detection and
+                  possibility to search current weather by city name.</p>
+              </div>
+              <div className='project-link'>
+                <a href='https://weather-appproject1.netlify.app/' target="_blank" rel="noreferrer" ><GoPaperclip style={{ margin: '0 0.2rem' }} />View Project</a>
               </div>
             </div>
-            <div className='project-thumbnail' >
-              <img src={waily} alt='weatherapp-thumbnail'>
-              </img>
+          </section>
+          <section className='bottom-container'>
+            <div className='project'>
+              <div className='project-name'>
+                <a href='#Projects'><p>Project 3 </p>
+                  <div className='project-icons'>
+                  </div> </a>
+              </div>
+              <div className='project-description'>
+                <p>Loading..</p>
+              </div>
+              <div className='project-link'>
+                <a href='#Projects'><GoPaperclip style={{ margin: '0 0.2rem' }} />View Project</a>
+              </div>
             </div>
-          </div>
+            <div className='project'>
+              <div className='project-name'>
+                <a href='#Projects' ><p>Project 4 </p>
+                  <div className='project-icons'>
+                  </div> </a>
+              </div>
+              <div className='project-description'>
+                <p>Loading..</p>
+              </div>
+              <div className='project-link'>
+                <a href='#Projects'><GoPaperclip style={{ margin: '0 0.2rem' }} />View Project</a>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
-    </main>
+    </section>
   )
 }
 export default ThirdSection

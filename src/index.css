@@ -1,5 +1,4 @@
 @import url('https://fonts.cdnfonts.com/css/dev-gothic');
-
  
 .down-arrow-bounce{
   animation:down-arrow-bounce 2s infinite;
@@ -42,7 +41,7 @@ html {
   font-size: calc(0.75em + 1vmin);
   padding: 0;
   --primary-color: mediumslateblue;
- 
+ scroll-behavior: smooth;
   
  
 }
