@@ -23,7 +23,7 @@ const SecondSection = () => {
               <p>Introduction</p>
             </Title>
             <Title className='second-title'>
-              <p>Overview.</p>
+              <p>Overview</p>
             </Title>
             <div className='second-text'>
               <p>web developer</p>

@@ -15,7 +15,7 @@ const ThirdSection = () => {
             <p>Work done</p>
           </Title>
           <Title className='main-third-inner-top'>
-            <p>Projects.</p>
+            <p>Projects</p>
           </Title>
           <Paragraph className='main-third-inner-top-description'>
             <p>These projects demonstrate my experience with practical examples of some of my work, including brief descriptions and links to the code repositories and live demos.</p>
