@@ -54,10 +54,9 @@
   border: 1px solid rgba(26, 27, 31, 0.1);
 }
 .contact-me form button{
-  width: 20%;
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
   font-size: 0.8rem;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   letter-spacing: 2px;
   outline: none;
   border: none;
