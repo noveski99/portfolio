@@ -10,7 +10,7 @@ const FirstSection = () => {
       <motion.nav
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 1, ease: "linear" }}
+        transition={{ duration: 0.75, ease: "linear" }}
         className='nav'>
         <ul>
           <li><a href='#Home'>Home </a></li>
@@ -24,13 +24,13 @@ const FirstSection = () => {
           <motion.p
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1 }}
-          >Hi
+            transition={{duration: 0.75 }}
+          >Hi,
           </motion.p>
           <motion.span
             whileInView={{ x: 0, opacity: 1 }}
             initial={{ x: 100, opacity: 0 }}
-            transition={{ duration: 1 }}>
+            transition={{ duration: 0.75 }}>
             I'm Boban</motion.span>
         </div>
         <div id='icon'><RiCodeSSlashFill size={70} /></div>
